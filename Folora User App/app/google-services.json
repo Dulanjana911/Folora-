@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "456168367158",
+    "firebase_url": "https://folora-ad93b-default-rtdb.firebaseio.com",
+    "project_id": "folora-ad93b",
+    "storage_bucket": "folora-ad93b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456168367158:android:5291433a78f77f24c2a497",
+        "android_client_info": {
+          "package_name": "com.dsmini.folora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456168367158-57ne1a8vghtc58s6c1ffkrcre8qkpjib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbnWnoF0d0jbLyOg8ohsI_p1OpBIN0Wu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456168367158-57ne1a8vghtc58s6c1ffkrcre8qkpjib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456168367158:android:0b1f8cb1fcc30484c2a497",
+        "android_client_info": {
+          "package_name": "com.dsmini.foloradriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456168367158-57ne1a8vghtc58s6c1ffkrcre8qkpjib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbnWnoF0d0jbLyOg8ohsI_p1OpBIN0Wu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456168367158-57ne1a8vghtc58s6c1ffkrcre8qkpjib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456168367158:android:26fac6e8b5b13506c2a497",
+        "android_client_info": {
+          "package_name": "com.dsmini.foloradriverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456168367158-ikj0a1u93ijbjp965qhpjefl69gss53h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dsmini.foloradriverapp",
+            "certificate_hash": "e7f5aaa566fc7c2b55d2ab61a22c993b1747989e"
+          }
+        },
+        {
+          "client_id": "456168367158-57ne1a8vghtc58s6c1ffkrcre8qkpjib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbnWnoF0d0jbLyOg8ohsI_p1OpBIN0Wu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456168367158-57ne1a8vghtc58s6c1ffkrcre8qkpjib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456168367158:android:7791e7b8ccc11a5fc2a497",
+        "android_client_info": {
+          "package_name": "com.dsmini.folorauserapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456168367158-57ne1a8vghtc58s6c1ffkrcre8qkpjib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbnWnoF0d0jbLyOg8ohsI_p1OpBIN0Wu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456168367158-57ne1a8vghtc58s6c1ffkrcre8qkpjib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

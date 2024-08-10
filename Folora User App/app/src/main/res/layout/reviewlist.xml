@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="14dp"
+    android:layout_margin="10dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/image_view"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/p"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/review_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/poppins_b"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:text="Title"
+            android:textSize="16sp"/>
+
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:tint="#0000FF"
+            android:src="@drawable/baseline_thumb_up_24"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/review_name"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

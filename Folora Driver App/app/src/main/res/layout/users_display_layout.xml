@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:elevation="7dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/users_profile_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/profile_image" />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/users_profile_name"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppins_b"
+                        android:gravity="start"
+                        android:text="User Name:"
+                        android:textColor="@color/black"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/users_status"
+                    android:layout_width="181dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/pacifico"
+                    android:gravity="start"
+                    android:text="User status:"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/request_accept_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@android:color/holo_green_light"
+                        android:text="Accept"
+                        android:textAllCaps="false"
+                        android:textSize="16dp"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/request_cancel_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@android:color/holo_red_light"
+                        android:text="Cancel"
+                        android:textSize="16dp"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/users_online_status"
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/online"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

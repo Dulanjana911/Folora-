@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">ƒolora</string>
+
+    <string name="passanger"><![CDATA[This is an <u>underline</u>.]]></string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="city_names">
+        <item>Matara </item>
+        <item>Dikwella</item>
+        <item>Akuressa</item>
+        <item>Weligama</item>
+        <item>Hakmana</item>
+        <item>Colombo</item>
+        <item>Nugegoda</item>
+        <item>Piliyandala</item>
+        <item>Maharagama</item>
+        <item>Dehiwala</item>
+        <item>Kottawa</item>
+        <item>Homagama</item>
+        <item>Hanwella</item>
+        <item>Godagama</item>
+        <item>Panagoda</item>
+        <item>Mihinthale</item>
+        <item>Kandy</item>
+        <item>Gampola</item>
+        <item>Katugastota</item>
+        <item>Peradeniya</item>
+        <item>Akurana</item>
+        <item>Galle</item>
+        <item>Ambalangoda</item>
+        <item>Elpitiya</item>
+        <item>Baddegama</item>
+        <item>Bentota</item>
+        <item>Akkarepattu</item>
+        <item>Ampara</item>
+        <item>Kalmunai</item>
+        <item>Sainthamaruthu</item>
+        <item>Anuradhapura</item>
+        <item>Kekirawa</item>
+        <item>Medawachchiya</item>
+        <item>Tambuttegama</item>
+        <item>Eppawala</item>
+        <item>Badulla</item>
+        <item>Bandarawela</item>
+        <item>Welimada</item>
+        <item>Mahiyanganaya</item>
+        <item>Hali Ela</item>
+        <item>Gampaha</item>
+        <item>Negombo</item>
+        <item>Wattala</item>
+        <item>Kiribathgoda</item>
+        <item>Kadawatha</item>
+        <item>Beliatta</item>
+        <item>Tangalla</item>
+        <item>Hambantota</item>
+        <item>Ambalantota</item>
+        <item>Tissamaharama</item>
+        <item>Jaffna</item>
+        <item>Nallur</item>
+        <item>Chavakachcheri</item>
+        <item>Kalutara</item>
+        <item>Panadura</item>
+        <item>Horana</item>
+        <item>Bandaragama</item>
+        <item>Kegalle</item>
+        <item>Matugama</item>
+        <item>Mawanella</item>
+        <item>Ruwanwella</item>
+        <item>Rambukkana</item>
+        <item>Kurunegala</item>
+        <item>Kuliyapitiya</item>
+        <item>Kilinochchi</item>
+        <item>Wariyapola</item>
+        <item>Narammala</item>
+        <item>Pannala</item>
+        <item>Matale</item>
+        <item>Dambulla</item>
+        <item>Galewela</item>
+        <item>Mannar</item>
+        <item>Ukuwela</item>
+        <item>Rattota</item>
+        <item>Monaragala</item>
+        <item>Wellawaya</item>
+        <item>Bibile</item>
+        <item>Buttala</item>
+        <item>Kataragama</item>
+        <item>Mullativu</item>
+        <item>Nuwara Eliya</item>
+        <item>Hatton</item>
+        <item>Ginigathhena</item>
+        <item>Madulla</item>
+        <item>Polonnaruwa</item>
+        <item>Kaduruwela</item>
+        <item>Hingurakgoda</item>
+        <item>Medirigiriya</item>
+        <item>Chilaw</item>
+        <item>Puttalam</item>
+        <item>Nattandiya</item>
+        <item>Marawila</item>
+        <item>Ratnapura</item>
+        <item>Embilipitiya</item>
+        <item>Balangoda</item>
+        <item>Pelmadulla</item>
+        <item>Trincomalee</item>
+        <item>Kinniya</item>
+    </string-array>
+</resources>

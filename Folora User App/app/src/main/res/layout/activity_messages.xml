@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MessagesActivity">
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view2"
+
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:drawableTint="@color/white"
+        android:fontFamily="@font/poppins_b"
+        android:text="Send Messages"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/busno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/blue_border_rounded_cornwe">
+
+        <!-- INPUT -->
+        <EditText
+            android:id="@+id/busno1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:background="@android:color/transparent"
+            android:hint="Enter Message Title"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:paddingLeft="17dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="12sp" />
+
+        <!-- ICON -->
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/baseline_email_24"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/busno"
+        android:visibility="gone"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="16.7dp"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/blue_border_rounded_cornwe">
+
+        <!-- INPUT -->
+        <TextView
+            android:id="@+id/useremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/emailimg"
+            android:background="@android:color/transparent"
+            android:editable="false"
+            android:hint=""
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:paddingLeft="17dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="12sp" />
+
+        <!-- ICON -->
+        <ImageView
+            android:id="@+id/emailimg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/baseline_email_24"
+            app:tint="@color/purple_700" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="16.7dp"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/blue_border_rounded_cornwe">
+
+        <!-- INPUT -->
+        <EditText
+            android:id="@+id/usermsg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+
+            android:layout_toRightOf="@+id/img21"
+            android:background="@android:color/transparent"
+            android:gravity="top|start"
+            android:hint="Enter Message or Complain"
+            android:inputType="textMultiLine"
+            android:lineHeight="10dp"
+            android:lines="8"
+            android:maxLines="10"
+            android:minLines="6"
+            android:paddingLeft="17dp"
+            android:paddingTop="15dp"
+
+            android:paddingBottom="15dp"
+            android:scrollbars="vertical"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="12sp" />
+
+        <!-- ICON -->
+        <ImageView
+            android:id="@+id/img21"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="17dp"
+
+            android:src="@drawable/baseline_email_24" />
+
+
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg"
+        android:layout_gravity="center"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="16.7dp"
+        android:layout_marginRight="62dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:fontFamily="@font/poppins_b"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="Send Message"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+
+        />
+
+    <TextView
+        android:id="@+id/sendemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="ds.studios02@gmail.com"
+        android:visibility="invisible" />
+
+
+
+
+
+
+</RelativeLayout>

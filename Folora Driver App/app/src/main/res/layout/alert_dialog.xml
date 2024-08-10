@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/error"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/poppins_b"
+        android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Internet connection is down."
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+        android:text="Please Check Your Internet Connection!"
+        android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+
+
+        />
+
+    <Button
+        android:id="@+id/int_btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:fontFamily="@font/poppins_b"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#6fbbd3"
+        android:drawableLeft="@drawable/baseline_refresh_24"
+        android:drawableTint="@color/teal_200"
+        android:textAllCaps="false"
+        android:text="Refresh!"/>
+
+</LinearLayout>

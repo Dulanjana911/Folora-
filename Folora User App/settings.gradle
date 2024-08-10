@@ -1,0 +1,2 @@
+rootProject.name='Folora user'
+include ':app'

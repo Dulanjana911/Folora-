@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             >
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/logo_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/logo"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:id="@+id/register_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login with ƒolora | Driver"
+                android:textColor="@color/teal_200"
+                android:fontFamily="@font/poppins_b"
+                android:textSize="20sp"
+                android:layout_below="@id/logo_image"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <RelativeLayout
+                android:id="@+id/username_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_text"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/blue_border_rounded_cornwe">
+
+                <!-- INPUT -->
+                <EditText
+                    android:id="@+id/login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img22"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter Email Address"
+                    android:inputType="textEmailAddress"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="12sp" />
+
+                <!-- ICON -->
+                <ImageView
+                    android:id="@+id/img22"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:src="@drawable/baseline_email_24"
+                    app:tint="@color/teal_200" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/password_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/username_input"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+
+                android:layout_marginTop="12dp"
+                android:background="@drawable/blue_border_rounded_cornwe">
+
+                <!-- INPUT -->
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img21"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter Your Password"
+                    android:inputType="textPassword"
+                    android:layout_marginRight="52dp"
+                    android:maxLines="1"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="12sp" />
+
+                <!-- ICON -->
+                <ImageView
+                    android:id="@+id/img21"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:src="@drawable/baseline_lock_24"
+                    app:tint="@color/teal_200" />
+
+                <ImageView
+                    android:id="@+id/showpass"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/baseline_visibility_off_24"
+                    app:tint="@color/teal_200" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/forget_password_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/password_input"
+                android:layout_alignStart="@+id/password_input"
+                android:layout_alignEnd="@+id/password_input"
+
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/roboto"
+                android:text="Forgot Password ?"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorPrimaryDark">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/forget_password_link"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/blue_fill__rounded_color"
+
+                android:fontFamily="@font/poppins_b"
+                android:padding="2dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/need_new_account_link"
+                android:layout_below="@id/login_button"
+                android:text="Sign Up?"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            </TextView>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
